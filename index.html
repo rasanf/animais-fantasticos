@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animais Fantásticos</title>
 
+    <script>document.documentElement.className += ' js';</script>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=IBM+Plex+Mono:wght@400;700&family=Playfair+Display+SC&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -16,14 +17,15 @@
             <li><a href="#animais">Animais</a></li>
             <li><a href="#faq">Faq</a></li>
             <li><a href="#contato">Contato</a></li>
-            <li><a href="#">Dev →</a></li>
+            <li><a href="https://www.origamid.com">Dev →</a></li>
         </ul>
     </nav>
 
+    <!-- ANIMAIS -->
     <section class="grid-section animais" id="animais">
         <h1 class="titulo">Animais Fantásticos</h1>
 
-        <ul class="animais-lista">
+        <ul class="animais-lista js-tabmenu">
             <li><img src="img/imagem1.jpg" alt="Foto de um filhote de raposa"></li>
             <li><img src="img/imagem2.jpg" alt="Foto de um esquilo"></li>
             <li><img src="img/imagem3.jpg" alt="Foto de um urso polar"></li>
@@ -32,7 +34,7 @@
             <li><img src="img/imagem6.jpg" alt="Foto de um leão"></li>
         </ul>
 
-        <div class="animais-descricao">
+        <div class="animais-descricao js-tabcontent">
             <section>
                 <h2>Raposa</h2>
                 <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. Elas têm o crânio achatado, orelhas triangulares verticais, focinho pontiagudo e ligeiramente arrebitado e uma cauda longa e espessa.</p>
@@ -96,6 +98,7 @@
         </dl>
     </section>
 
+    <!-- CONTATO -->
     <section class="grid-section contato" id="contato">
         <h1 class="titulo">Contato</h1>
 
@@ -111,6 +114,7 @@
         </ul>
     </section>
 
+    <!-- FOOTER -->
     <footer class="copy">
         <p>Todos os direitos reservados.</p>
     </footer>
