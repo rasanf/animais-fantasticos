@@ -181,6 +181,8 @@ body {
     margin-bottom: .5rem;
 
     color: #E54;
+
+    cursor: pointer;
 }
 
 .faq-lista dt::before, .dados li::before {
